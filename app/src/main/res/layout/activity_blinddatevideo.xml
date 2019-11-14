@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/videobggradiant"
+    tools:context=".Blinddatevideo">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/back"
+        app:layout_constraintTop_toTopOf="@id/back"
+        app:layout_constraintBottom_toBottomOf="@id/back"
+        android:layout_marginStart="8dp"
+        android:text="GirlFriend Messenger"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <SurfaceView
+        android:id="@+id/camera_preview"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/back"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/camera_preview"
+        app:layout_constraintTop_toTopOf="@id/camera_preview"
+        android:paddingStart="16dp"
+        android:textColor="@android:color/white"
+        android:paddingRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/textbackground"
+        android:text="1"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/rosemain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/roseicon"
+        app:layout_constraintStart_toStartOf="@id/camera_preview"
+        app:layout_constraintBottom_toBottomOf="@id/camera_preview"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="7834"
+        app:layout_constraintStart_toEndOf="@id/rosemain"
+        app:layout_constraintTop_toTopOf="@id/rosemain"
+        app:layout_constraintBottom_toBottomOf="@id/rosemain"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/gf1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/camera_preview"
+        app:layout_constraintStart_toEndOf="@id/camera_preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/gf2"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitXY"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/gif1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/gf1"
+        app:layout_constraintTop_toTopOf="@id/gf1"
+        android:paddingStart="8dp"
+        android:textColor="@android:color/white"
+        android:paddingRight="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/textbackground"
+        android:text="2"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/rose1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/roseicon"
+        app:layout_constraintStart_toStartOf="@id/gf1"
+        app:layout_constraintBottom_toBottomOf="@id/gf1"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="202"
+        app:layout_constraintStart_toEndOf="@id/rose1"
+        app:layout_constraintTop_toTopOf="@id/rose1"
+        app:layout_constraintBottom_toBottomOf="@id/rose1"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/gf2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toEndOf="@id/camera_preview"
+        app:layout_constraintBottom_toTopOf="@id/gf3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gf1"
+        android:scaleType="fitXY"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/gif2"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/gf2"
+        app:layout_constraintTop_toTopOf="@id/gf2"
+        android:paddingStart="8dp"
+        android:textColor="@android:color/white"
+        android:paddingRight="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/textbackground"
+        android:text="3"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/rose2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/roseicon"
+        app:layout_constraintStart_toStartOf="@id/gf2"
+        app:layout_constraintBottom_toBottomOf="@id/gf2"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="336"
+        app:layout_constraintStart_toEndOf="@id/rose2"
+        app:layout_constraintTop_toTopOf="@id/rose2"
+        app:layout_constraintBottom_toBottomOf="@id/rose2"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/gf3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/camera_preview"
+        app:layout_constraintBottom_toBottomOf="@id/camera_preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gf2"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/gif1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text3no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/gf3"
+        app:layout_constraintTop_toTopOf="@id/gf3"
+        android:paddingStart="8dp"
+        android:textColor="@android:color/white"
+        android:paddingRight="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/textbackground"
+        android:text="4"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/rose3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/roseicon"
+        app:layout_constraintStart_toStartOf="@id/gf3"
+        app:layout_constraintBottom_toBottomOf="@id/gf3"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="506"
+        app:layout_constraintStart_toEndOf="@id/rose3"
+        app:layout_constraintTop_toTopOf="@id/rose3"
+        app:layout_constraintBottom_toBottomOf="@id/rose3"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/chatimage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/camera_preview"
+        android:src="@drawable/date2chat"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/chat3image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/camera_preview"
+        android:src="@drawable/date2chats"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/micicon"
+        app:layout_constraintEnd_toEndOf="@id/camera_preview"
+        app:layout_constraintTop_toTopOf="@id/camera_preview"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/micicon"
+        app:layout_constraintEnd_toEndOf="@id/gf1"
+        app:layout_constraintTop_toTopOf="@id/gf1"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/micicon"
+        app:layout_constraintEnd_toEndOf="@id/gf2"
+        app:layout_constraintTop_toTopOf="@id/gf2"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/mic3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/micicon"
+        app:layout_constraintEnd_toEndOf="@id/gf3"
+        app:layout_constraintTop_toTopOf="@id/gf3"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

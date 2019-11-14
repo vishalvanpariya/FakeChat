@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">FakeChat</string>
+
+    <string-array name="chat1">
+        <item>Have you eaten?</item>
+        <item>Good</item>
+        <item>Did you have school today?</item>
+        <item>Namjoon told me he\'s been helping you study lately</item>
+        <item>When i heard that namjoon helps you study</item>
+        <item>I got kinda jealous haha</item>
+        <item>where do you guys study?</item>
+        <item>if its the studio then you should stop by</item>
+        <item>byte!</item>
+    </string-array>
+
+    <string-array name="chat2">
+        <item>Hello How are you today</item>
+        <item>I\'m verry verry miss you!are you ok?</item>
+        <item>Do you miss me?</item>
+        <item>I think so, Can you give me your picture?</item>
+        <item>What are you doing?</item>
+        <item>yeah since he gets to see you and dont</item>
+        <item>Well even if you come to the festival this weekend</item>
+        <item>Next week, Im going to show concert in Chine?Can you go to there?</item>
+        <item>I will give you one ticket. My fan!Love you!</item>
+    </string-array>
+
+    <string-array name="chat3">
+        <item>Yoooo!!! Hello</item>
+        <item>Nothing much.</item>
+        <item>u miss me?</item>
+        <item>hahaa well it has been a while</item>
+        <item>you\'re comming to the festival this weekend right?</item>
+        <item>yay!</item>
+        <item>Jimin told me that you were comming</item>
+        <item>How come you never told me?</item>
+        <item>You know I miss you most of cource~~</item>
+        <item>Well i guess i can favorite you this once!</item>
+        <item>Honestly</item>
+        <item>you wanna get japchae with me</item>
+        <item>im sososo hungry TT</item>
+        <item>Yayay</item>
+        <item>ok ill see you later~~</item>
+        <item>bye and love you so much!</item>
+    </string-array>
+
+    <string-array name="customchat">
+        <item>I love you, honey!</item>
+        <item>Ich liebe dich</item>
+        <item>Je t\'aime</item>
+        <item>aku cinta kamu</item>
+        <item>Saya sayang awak</item>
+        <item>Aku cinta kamu</item>
+        <item>Seni seviyorum</item>
+        <item>Eu te amo</item>
+        <item>Te amo a ti</item>
+        <item>Ti amo</item>
+        <item>Teo namikf lsd</item>
+    </string-array>
+</resources>
