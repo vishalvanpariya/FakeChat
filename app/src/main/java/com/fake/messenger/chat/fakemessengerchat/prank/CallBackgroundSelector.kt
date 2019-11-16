@@ -45,7 +45,7 @@ class CallBackgroundSelector : AppCompatActivity() {
         }
 
         fakechatbutton.setOnClickListener {
-            startActivity(Intent(this,CallScreen::class.java).putExtra("iscall","yes"))
+            startActivity(Intent(this,CallScreen::class.java).putExtra("iscall","yes").putExtra("isvideocall","no"))
         }
     }
 }
